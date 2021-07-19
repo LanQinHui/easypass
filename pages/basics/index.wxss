@@ -1,0 +1,58 @@
+/* pages/basics/index.wxss */
+page {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9fa;
+  }
+
+  .view_title {
+    width: 150rpx;
+    margin-top: 25rpx;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+  }
+  
+  .view_contain {
+    width: 100%;
+    height: 300rpx;
+    /* 背景渐变色 */
+    background: linear-gradient(#56CCF2, #2F80ED);
+    position: absolute;
+  }
+  
+  /* 圆角框框 */
+  .view_top {
+    width: 96%;
+    height: 300rpx;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20rpx;
+    margin: 200rpx 2% 20rpx 2%;
+    border-style: solid;
+    box-shadow: 0rpx 4rpx 8rpx 4rpx #DDDDDD;
+    border-width: 0rpx;
+  }
+  
+  /* 4个图标文字 */
+  .view_tupianwenzi {
+    display: flex;
+    flex-direction: column;
+    width: 130rpx;
+    align-items: center;
+    margin-left: 25rpx;
+    margin-right: 25rpx;
+  }
+  
+  /* 图标 */
+  .image_tupian {
+    display: flex;
+    width: 80rpx;
+    height: 80rpx;
+  }
+  
+  .text_1{
+      font-size: 28rpx;
+  }

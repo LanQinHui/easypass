@@ -1,0 +1,27 @@
+<!--pages/basics/index.wxml-->
+<view class="view_contain">
+
+
+  <view class="view_top">
+    <view class="view_tupianwenzi">
+      <image class="image_tupian" src="../../icons/component_cur.png"></image>
+      <text class="text_1">章节练习</text>
+    </view>
+    <view class="view_tupianwenzi" bindtap="webViewAll" id="2">
+      <image class="image_tupian" src="../../icons/component_cur.png"></image>
+      <text class="text_1">错题训练</text>
+    </view>
+    <view class="view_tupianwenzi" bindtap="jianjie" bindtap="webViewAll" id="3">
+      <image class="image_tupian" src="../../icons/component_cur.png"></image>
+      <text class="text_1">随机练习</text>
+    </view>
+    <view class="view_tupianwenzi" bindtap="webViewAll" id="6">
+      <image class="image_tupian" src="../../icons/component_cur.png"></image>
+      <text class="text_1">模拟考试</text>
+    </view>
+  </view>
+
+
+
+
+</view>

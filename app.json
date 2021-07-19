@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/basics/index",
+    "pages/component/index",
+    "pages/plugin/index",
+    "pages/about/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#19AAFD",
+    "navigationBarTitleText": "EasyPass",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "",
+    "selectedColor": "",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/basics/index",
+      "text": "元素",
+      "iconPath": "icons/basics.png",
+      "selectedIconPath": "icons/basics_cur.png"
+    }, {
+      "pagePath": "pages/component/index",
+      "text": "组件",
+      "iconPath": "icons/component.png",
+      "selectedIconPath": "icons/component_cur.png"
+    }, {
+      "pagePath": "pages/plugin/index",
+      "text": "扩展",
+      "iconPath": "icons/plugin.png",
+      "selectedIconPath": "icons/plugin_cur.png"
+    }, {
+      "pagePath": "pages/about/index",
+      "text": "关于",
+      "iconPath": "icons/about.png",
+      "selectedIconPath": "icons/about_cur.png"
+    }]
+  }
+
+}
